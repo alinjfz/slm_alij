@@ -36,7 +36,6 @@ def call_llama3_openai_api(user_message):
         logging.error(f"An unexpected error occurred: {e}")
         raise
 
-
 def call_llama3_api(prompt):
     data = {
         "model": "llama3.1:8b",
@@ -54,14 +53,14 @@ def call_llama3_api(prompt):
     }
     response = requests.post(EXTERNAL_API_URL, headers=headers, json=data)  
     print(response)
-    return 
+    return "Hi"
     # return response.json()
     # return response.json()#['message']['content']
-    from langchain_community.chat_models import ChatOllama
+    # from langchain_community.chat_models import ChatOllama
 
-    llm = ChatOllama(model="llama3", temperature=0)
-    response = llm.invoke("who wrote the book godfather?")
-    print(response.content)
+    # llm = ChatOllama(model="llama3", temperature=0)
+    # response = llm.invoke("who wrote the book godfather?")
+    # print(response.content)
 
 @main.route('/api/chat', methods=['POST'])
 def chat():
