@@ -7,6 +7,7 @@ flask_mail
 flask
 flask-cors
 Flask-Migrate
-requests
+Requests
 openai
 langchain
+httpx
