@@ -3,22 +3,22 @@
 /.vscode
 /slm_back/.venv
 /slm_front/node_modules
-# /slm_front/.pnp
-# /slm_front/.pnp.js
+/slm_front/.pnp
+/slm_front/.pnp.js
 # testing
 
 # misc
 .DS_Store
-# /slm_front/.env.local
-# /slm_front/.env.development.local
-# /slm_front/.env.test.local
-# /slm_front/.env.production.local
-# /slm_front/npm-debug.log*
-# /slm_front/yarn-debug.log*
-# /slm_front/yarn-error.log*
+/slm_front/.env.local
+/slm_front/.env.development.local
+/slm_front/.env.test.local
+/slm_front/.env.production.local
+/slm_front/npm-debug.log*
+/slm_front/yarn-debug.log*
+/slm_front/yarn-error.log*
 
 # testing
-# /slm_front/coverage
+/slm_front/coverage
 
 # production
-# /slm_front/build
+/slm_front/build
