@@ -1,6 +1,5 @@
 Here’s how you can update the **README.md** file to include instructions for installing and using the `llama3.1:8b` model via [Ollama](https://ollama.com/):
 
-```markdown
 # Flask-React Chat Application
 
 This is a simple chat application built with Flask for the backend and React for the frontend. The application allows users to interact with an AI model, manage conversation history, and supports features such as a sidebar for selecting conversations, automated saving of conversations, and handling CORS errors.
@@ -22,8 +21,8 @@ This is a simple chat application built with Flask for the backend and React for
   - PWA support for offline capabilities.
 
 ## Project Structure
-```
 
+```
 project-root/
 │
 ├── front/ # React frontend code
@@ -45,8 +44,7 @@ project-root/
 │
 ├── run.py # Script to run both Flask and React simultaneously
 └── README.md # Project documentation
-
-````
+```
 
 ## Getting Started
 
@@ -63,7 +61,8 @@ project-root/
    ```bash
    git clone https://github.com/your-username/flask-react-chat-app.git
    cd flask-react-chat-app
-````
+
+   ```
 
 2. **Setup the backend:**
 
@@ -129,7 +128,7 @@ project-root/
 ## Troubleshooting
 
 - **CORS Issues:** Ensure that the backend has CORS configured correctly. If you encounter a CORS error, try clearing your browser cache or ensure the server allows requests from your frontend origin.
-- **502 Error:** If you encounter a 502 error when making requests to the AI model, ensure that the external API is reachable and that your request format matches the expected structure.
+- **502 Error:** If you encounter a 502 error when making requests to the AI model, ensure that the external API is reachable and that your request format matches the expected structure. Make sure your vpn is off.
 - **Ollama Issues:** Make sure that the Ollama service is running and that the `llama3.1:8b` model is correctly installed and started.
 
 ## Contributing
@@ -146,10 +145,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - The frontend is built with [React](https://reactjs.org/) and [Bootstrap](https://getbootstrap.com/).
 - The AI model interaction is made possible with Ollama's LLaMA models.
 
-```
-
 ### Key Points:
+
 - This README now includes specific instructions for installing and running the `llama3.1:8b` model via the Ollama platform.
 - The instructions also emphasize ensuring that the Ollama service is running before starting the Flask server, as the backend relies on it for generating AI responses.
 - If you make additional changes or add features, be sure to update the README accordingly.
-```
